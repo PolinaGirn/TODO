@@ -2,13 +2,18 @@ from django.db import models
 
 # Create your models here.
 from django.db import models
-from TODO.users.models import User
+from users.models import User
 
 
 class Project(models.Model):
     title = models.CharField(max_length=64, unique=True)
     users = models.ManyToManyField(User)
     link_repo = models.URLField(blank=True)
+
+    # это я украла, потому что всё ломалось при создании заметок
+    # но оно не помогло и папка management тоже
+    def __str__(self):
+        return self.title
 
 
 class ToDo(models.Model):

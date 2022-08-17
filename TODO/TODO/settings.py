@@ -27,6 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
+# CORS
 CORS_ALLOWED_ORIGINS = [
     'http://127.0.0.1:3000',
     'http://localhost:3000',
@@ -41,11 +42,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-
-    # main
+    # others
     'rest_framework',
-    'users',
     'corsheaders',
+    # mine
+    'users',
+    'notes',
 ]
 
 MIDDLEWARE = [
@@ -132,6 +134,28 @@ STATIC_URL = '/static/'
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
+# AUTH
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
 AUTH_USER_MODEL = 'users.User'
+
+# DRF
+# REST_FRAMEWORK = {
+#     # Use Django's standard `django.contrib.auth` permissions,
+#     # or allow read-only access for unauthenticated users.
+#     'DEFAULT_PERMISSION_CLASSES': [
+#         'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
+#     ],
+#     # pip install djangorestframework-camel-case
+#     'DEFAULT_RENDERER_CLASSES': (
+#         'djangorestframework_camel_case.render.CamelCaseJSONRenderer',
+#         'djangorestframework_camel_case.render.CamelCaseBrowsableAPIRenderer',
+#         # Any other renders
+#     ),
+#     'DEFAULT_PARSER_CLASSES': (
+#         # If you use MultiPartFormParser or FormParser, we also have a camel case version
+#         'djangorestframework_camel_case.parser.CamelCaseFormParser',
+#         'djangorestframework_camel_case.parser.CamelCaseMultiPartParser',
+#         'djangorestframework_camel_case.parser.CamelCaseJSONParser',
+#         # Any other parsers
+#     ),
+# }

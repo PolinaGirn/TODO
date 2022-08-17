@@ -17,10 +17,14 @@ from django.contrib import admin
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
 
-from users.views import UserModelViewSet  # почему подчеркивает я не понимаю
+from users.views import UserModelViewSet
+from notes.views import ProjectModelViewSet, ToDoModelViewSet
 
 router = DefaultRouter()
 router.register('users', UserModelViewSet)
+router.register('todos', ToDoModelViewSet)
+router.register('projects', ProjectModelViewSet)
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
