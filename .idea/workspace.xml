@@ -2,24 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1a258f2-b99b-4ccb-8e1d-d09c3a292e82" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TODO/notes/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TODO/notes/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TODO/notes/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TODO/notes/management/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TODO/notes/management/commands/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TODO/notes/management/commands/create_project_and_todo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TODO/notes/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TODO/notes/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TODO/notes/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TODO/notes/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TODO/notes/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TODO/notes/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TODO/users/migrations/0003_auto_20220817_1720.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/TODO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TODO.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TODO/frontend/src/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TODO/frontend/src/bootstrap/css/sticky-footer-navbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TODO/frontend/src/components/Project.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TODO/frontend/src/components/ToDo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TODO/notes/filters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TODO/notes/migrations/0002_rename_title_project_name.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TODO/TODO/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/TODO/TODO/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TODO/TODO/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/TODO/TODO/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TODO/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/TODO/users/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/TODO/frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/TODO/frontend/src/components/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/src/components/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/TODO/frontend/src/components/Menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/src/components/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/TODO/frontend/src/components/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/notes/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/TODO/notes/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/notes/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/TODO/notes/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/TODO/users/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

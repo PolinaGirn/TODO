@@ -6,14 +6,12 @@ from users.models import User
 
 
 class Project(models.Model):
-    title = models.CharField(max_length=64, unique=True)
+    name = models.CharField(max_length=64, unique=True)
     users = models.ManyToManyField(User)
     link_repo = models.URLField(blank=True)
 
-    # это я украла, потому что всё ломалось при создании заметок
-    # но оно не помогло и папка management тоже
     def __str__(self):
-        return self.title
+        return self.name
 
 
 class ToDo(models.Model):
