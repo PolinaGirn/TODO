@@ -2,7 +2,7 @@ import React from 'react';
 //import logo from './logo.svg';
 import {
   BrowserRouter as Router,
-  Routes as Switch,
+  Routes,
   Route,
 } from "react-router-dom";
 import './bootstrap/css/bootstrap.min.css'
