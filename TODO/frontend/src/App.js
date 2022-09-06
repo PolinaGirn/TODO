@@ -74,7 +74,7 @@ class App extends React.Component {
                 </header>
                 <main role="main" className="flex-shrink-0">
                     <div className="container">
-                        <Switch>
+                        <Routes>
                             <Route exact path='/'>
                                 <UserList users={this.state.users}/>
                             </Route>
@@ -86,7 +86,7 @@ class App extends React.Component {
                             </Route>
                             <Route path="/project/:id" children={<ProjectDetail getProject={(id) => this.getProject(id)}
                                                                                 item={this.state.project}/>}/>
-                        </Switch>
+                        </Routes>
                     </div>
                 </main>
                 <Footer/>
@@ -96,6 +96,5 @@ class App extends React.Component {
         )
     }
 }
-
 
 export default App;
