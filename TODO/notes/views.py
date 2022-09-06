@@ -1,6 +1,3 @@
-from django.shortcuts import render
-
-# Create your views here.
 from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework import status
 from rest_framework.pagination import PageNumberPagination
@@ -8,7 +5,6 @@ from rest_framework.response import Response
 from rest_framework.viewsets import ModelViewSet
 
 from .filters import TodoFilter
-# from rest_framework.viewsets import ModelViewSet
 from .serializers import ProjectModelSerializer, ToDoModelSerializer
 from .models import Project, ToDo
 
@@ -20,7 +16,7 @@ class ProjectPagination(PageNumberPagination):
 class ProjectModelViewSet(ModelViewSet):
     serializer_class = ProjectModelSerializer
     queryset = Project.objects.all()
-    pagination_class = ProjectPagination
+    # pagination_class = ProjectPagination
 
     def get_queryset(self):
         queryset = Project.objects.all()
@@ -37,7 +33,7 @@ class ToDoPagination(PageNumberPagination):
 class ToDoModelViewSet(ModelViewSet):
     serializer_class = ToDoModelSerializer
     queryset = ToDo.objects.all()
-    pagination_class = ToDoPagination
+    # pagination_class = ToDoPagination
     # filter_backends = [DjangoFilterBackend]
     filterset_class = TodoFilter
 
