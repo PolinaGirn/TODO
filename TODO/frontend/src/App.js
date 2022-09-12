@@ -1,10 +1,8 @@
 import React from 'react';
-//import logo from './logo.svg';
 import {
-    BrowserRouter as Router,
+    BrowserRouter,
     Routes,
     Route,
-//    Redirect
 } from 'react-router-dom';
 import axios from 'axios'
 import './bootstrap/css/bootstrap.min.css'
@@ -49,10 +47,6 @@ class App extends React.Component {
                 localStorage.setItem('refresh', refresh)
                 this.setState({'auth': {username: username, is_login: true}})
                 this.load_data()
-                 //    <BrowserRouter>
-                 //     <Switch>
-                 // <Redirect from='/authors1' to='/'/>
-                 //     <Switch>
             }).catch(error => {
             if (error.response.status === 401) {
                 alert('Неверный логин или пароль')
@@ -117,33 +111,26 @@ class App extends React.Component {
 
     render() {
         return (
-            <Router>
+            <BrowserRouter>
                 <header>
                     <Navbar navbarItems={this.state.navbarItems} auth={this.state.auth} logout={() => this.logout()}/>
                 </header>
                 <main role="main" class="flex-shrink-0">
                     <div className="container">
                         <Routes>
-                            <Route exact path='/'>
-                                <UserList users={this.state.users}/>
-                            </Route>
-                            <Route exact path='/projects'>
-                                <ProjectList items={this.state.projects}/>
-                            </Route>
-                            <Route exact path='/todos'>
-                                <ToDoList items={this.state.todos}/>
-                            </Route>
-                            <Route exact path='/login'>
-                                <LoginForm login={(username, password) => this.login(username, password)}/>
-                            </Route>
-                            <Route path="/project/:id" children={<ProjectDetail getProject={(id) => this.getProject(id)}
-                                                                                item={this.state.project}/>}/>
-                        </Routes>
+                            <Route path="/login" element={<LoginForm login={(username, password) =>
+                                                                                this.login(username, password)} />} />
+                            <Route path="/" element={<UserList users={this.state.users} />} />
+                            <Route path="/projects" element={<ProjectList items={this.state.projects} />} />
+                            <Route path="/project/:id" element={<ProjectDetail getProject={(id) => this.getProject(id)}
+                                                                                item={this.state.project} />} />
+                            <Route path="/todos" element={<ToDoList items={this.state.todos} />} />
+                       </Routes>
                     </div>
                 </main>
 
                 <Footer/>
-            </Router>
+            </BrowserRouter>
 
 
         )
