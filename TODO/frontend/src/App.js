@@ -15,7 +15,7 @@ import ToDoList from './components/ToDo.js'
 import LoginForm from './components/Auth.js'
 
 
-const DOMAIN = 'http://127.0.0.1:8001/api/'
+const DOMAIN = 'http://127.0.0.1:8000/api/'
 const get_url = (url) => `${DOMAIN}${url}`
 
 
@@ -25,8 +25,8 @@ class App extends React.Component {
         this.state = {
             navbarItems: [
                 {name: 'Users', href: '/'},
-                {name: 'Projects', href: '/projects'},
-                {name: 'TODOs', href: '/todos'},
+                {name: 'Projects', href: 'projects'},
+                {name: 'TODOs', href: 'todos'},
             ],
             users: [],
             projects: [],
@@ -118,7 +118,7 @@ class App extends React.Component {
                 <main role="main" class="flex-shrink-0">
                     <div className="container">
                         <Routes>
-                            <Route path="/login" element={<LoginForm login={(username, password) =>
+                            <Route path="login" element={<LoginForm login={(username, password) =>
                                                                                 this.login(username, password)} />} />
                             <Route path="/" element={<UserList users={this.state.users} />} />
                             <Route path="/projects" element={<ProjectList items={this.state.projects} />} />

@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1a258f2-b99b-4ccb-8e1d-d09c3a292e82" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/TODO/users/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TODO/TODO/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/TODO/TODO/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TODO/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/TODO/api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TODO/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/TODO/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TODO/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/TODO/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/TODO/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/TODO/TODO/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TODO/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/TODO/frontend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TODO/users/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/TODO/users/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/users/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/TODO/users/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TODO/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/TODO/users/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,8 +37,14 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/TODO/manage.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/TODO/users" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Study\GB\TODO\TODO\users" />
+      <recent name="D:\Study\GB\TODO\TODO\userapp" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.api_test">
     <configuration name="api_test" type="PythonConfigurationType" factoryName="Python">
@@ -116,5 +121,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/TODO/users/urls.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
