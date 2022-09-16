@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'rest_framework_simplejwt.token_blacklist',
     'drf_yasg',
+    'graphene_django',
     # mine
     'users',
     'notes',
@@ -176,4 +177,8 @@ REST_FRAMEWORK = {
     # 'PAGE_SIZE': 100
     # 'DEFAULT_VERSIONING_CLASS': 'rest_framework.versioning.URLPathVersioning',
     'DEFAULT_VERSIONING_CLASS': 'rest_framework.versioning.NamespaceVersioning',
+}
+
+GRAPHENE = {
+    "SCHEMA": 'TODO.schema.schema'
 }
