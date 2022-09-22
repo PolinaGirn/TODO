@@ -13,6 +13,8 @@ import UserList from './components/User.js'
 import {ProjectList, ProjectDetail} from './components/Project.js'
 import ToDoList from './components/ToDo.js'
 import LoginForm from './components/Auth.js'
+import ProjectForm from './components/ProjectForm.js'
+import ToDoForm from './components/ToDoForm.js'
 
 
 const DOMAIN = 'http://127.0.0.1:8000/api/'
@@ -34,6 +36,78 @@ class App extends React.Component {
             todos: [],
             auth: {username: '', is_login: false}
         }
+    }
+
+    create_todo(text, project){
+        let headers = {
+            'Content-Type': 'application/json'
+        }
+        console.log(this.state.auth)
+        if (this.state.auth.is_login) {
+            const token = localStorage.getItem('access')
+            headers['Authorization'] = 'Bearer ' + token
+        }
+
+        const data = {text:text, project:project}
+
+        axios.post(`${DOMAIN}todos/`,data, {headers}).then(response => {
+            this.load_data()
+        }).catch(error => {
+            console.log(error)
+            this.setState({todos:[]})})
+    }
+
+    create_project(name, link_repo, users){
+        let headers = {
+            'Content-Type': 'application/json'
+        }
+        console.log(this.state.auth)
+        if (this.state.auth.is_login) {
+            const token = localStorage.getItem('access')
+            headers['Authorization'] = 'Bearer ' + token
+        }
+
+        const data = {name:name, link_repo:link_repo, users:users}
+
+        axios.post(`${DOMAIN}projects/`,data, {headers}).then(response => {
+            this.load_data()
+        }).catch(error => {
+            console.log(error)
+            this.setState({projects:[]})})
+    }
+
+    deleteToDo(id){
+        let headers = {
+            'Content-Type': 'application/json'
+        }
+        console.log(this.state.auth)
+        if (this.state.auth.is_login) {
+            const token = localStorage.getItem('access')
+            headers['Authorization'] = 'Bearer ' + token
+        }
+
+        axios.delete(`${DOMAIN}todos/${id}`, {headers}).then(response => {
+            this.load_data()
+        }).catch(error => {
+            console.log(error)
+            this.setState({todos:[]})})
+    }
+
+    deleteProject(id){
+        let headers = {
+            'Content-Type': 'application/json'
+        }
+        console.log(this.state.auth)
+        if (this.state.auth.is_login) {
+            const token = localStorage.getItem('access')
+            headers['Authorization'] = 'Bearer ' + token
+        }
+
+        axios.delete(`${DOMAIN}projects/${id}`, {headers}).then(response => {
+            this.load_data()
+        }).catch(error => {
+            console.log(error)
+            this.setState({projects:[]})})
     }
 
     login(username, password) {
@@ -77,9 +151,7 @@ class App extends React.Component {
             .then(response => {
                 //console.log(response.data)
                 this.setState({users: response.data})
-            }).catch(error =>
-
-            console.log(error)
+            }).catch(error => console.log(error)
         )
 
         axios.get(get_url('projects/'), {headers})
@@ -119,12 +191,26 @@ class App extends React.Component {
                     <div className="container">
                         <Routes>
                             <Route path="login" element={<LoginForm login={(username, password) =>
-                                                                                this.login(username, password)} />} />
+                                        this.login(username, password)} />} />
+
                             <Route path="/" element={<UserList users={this.state.users} />} />
-                            <Route path="/projects" element={<ProjectList items={this.state.projects} />} />
+
+                            <Route path="/projects" element={<ProjectList items={this.state.projects}
+                                        deleteProject={(id) => this.deleteProject(id)}/>} />
+
                             <Route path="/project/:id" element={<ProjectDetail getProject={(id) => this.getProject(id)}
-                                                                                item={this.state.project} />} />
-                            <Route path="/todos" element={<ToDoList items={this.state.todos} />} />
+                                        item={this.state.project} />} />
+
+                            <Route path="/projects/create" element={<ProjectForm users={this.state.users}
+                                        create_project={(name, link_repo, users) =>
+                                        this.create_project(name, link_repo, users)}/>} />
+
+                            <Route path="/todos/create" element={<ToDoForm project={this.state.project}
+                                        create_todo={(text, project) =>
+                                        this.create_todo(text, project)}/>} />
+
+                            <Route path="/todos" element={<ToDoList items={this.state.todos}
+                                        deleteToDo={(id) => this.deleteToDo(id)}/>} />
                        </Routes>
                     </div>
                 </main>

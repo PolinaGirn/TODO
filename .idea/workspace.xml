@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1a258f2-b99b-4ccb-8e1d-d09c3a292e82" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TODO/TODO/schema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TODO/frontend/src/components/ProjectForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TODO/frontend/src/components/ToDoForm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TODO/TODO/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/TODO/TODO/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TODO/TODO/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/TODO/TODO/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/TODO/frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/src/components/Project.js" beforeDir="false" afterPath="$PROJECT_DIR$/TODO/frontend/src/components/Project.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/src/components/ToDo.js" beforeDir="false" afterPath="$PROJECT_DIR$/TODO/frontend/src/components/ToDo.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +25,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="2DQX3lF6qq4GfMhayfYm5e3TFmy" />
   <component name="ProjectLevelVcsManager">
