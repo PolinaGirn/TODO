@@ -2,14 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1a258f2-b99b-4ccb-8e1d-d09c3a292e82" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TODO/frontend/src/components/ProjectForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TODO/frontend/src/components/ToDoForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TODO/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TODO/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx/nginx.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TODO/TODO/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/TODO/TODO/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TODO/TODO/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/TODO/TODO/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TODO/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/TODO/frontend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TODO/frontend/src/components/Project.js" beforeDir="false" afterPath="$PROJECT_DIR$/TODO/frontend/src/components/Project.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TODO/frontend/src/components/ToDo.js" beforeDir="false" afterPath="$PROJECT_DIR$/TODO/frontend/src/components/ToDo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/src/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/src/bootstrap/css/sticky-footer-navbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/src/components/Auth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/src/components/Footer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/src/components/Menu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/src/components/Project.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/src/components/ProjectForm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/src/components/ToDo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/src/components/ToDoForm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/src/components/User.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/notes/management/commands/create_project_and_todo.py" beforeDir="false" afterPath="$PROJECT_DIR$/TODO/notes/management/commands/create_project_and_todo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,11 +76,12 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/TODO/users" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Study\GB\TODO\frontend" />
       <recent name="D:\Study\GB\TODO\TODO\users" />
       <recent name="D:\Study\GB\TODO\TODO\userapp" />
     </key>
