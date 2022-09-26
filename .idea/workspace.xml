@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c1a258f2-b99b-4ccb-8e1d-d09c3a292e82" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/TODO/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TODO/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx/nginx.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/TODO/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/TODO/TODO/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/src/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/src/bootstrap/css/sticky-footer-navbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/src/components/Auth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/src/components/Footer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/src/components/Menu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/src/components/Project.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/src/components/ProjectForm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/src/components/ToDo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/src/components/ToDoForm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/src/components/User.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/frontend/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/notes/management/commands/create_project_and_todo.py" beforeDir="false" afterPath="$PROJECT_DIR$/TODO/notes/management/commands/create_project_and_todo.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="2DQX3lF6qq4GfMhayfYm5e3TFmy" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Study\GB\TODO\frontend" />
+      <recent name="D:\Study\GB\TODO\TODO\users" />
+      <recent name="D:\Study\GB\TODO\TODO\userapp" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.api_test">
+    <configuration name="api_test" type="PythonConfigurationType" factoryName="Python">
+      <module name="TODO" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="TODO.settings" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Study\GB\TODO\.venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TODO" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TODO/manage.py" />
+      <option name="PARAMETERS" value="test" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="serializers" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="TODO" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="TODO.TODO.settings" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Study\GB\TODO\.venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TODO/users" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TODO/users/serializers.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.serializers" />
+      <item itemvalue="Python.api_test" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c1a258f2-b99b-4ccb-8e1d-d09c3a292e82" name="Changes" comment="" />
+      <created>1660632090677</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1660632090677</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/TODO/users/urls.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
